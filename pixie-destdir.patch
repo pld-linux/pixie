@@ -1,0 +1,16 @@
+diff -ur Pixie-o/Makefile.am Pixie/Makefile.am
+--- Pixie-o/Makefile.am	2005-07-23 15:11:02.000000000 -0600
++++ Pixie/Makefile.am	2005-08-31 08:54:17.000000000 -0600
+@@ -21,8 +21,8 @@
+ 	cp -rf $(srcdir)/shaders $(distdir)
+ 
+ install-data-hook:
+-	mkdir -p $(htmldocdir)
+-	cp -rf $(srcdir)/doc/* $(htmldocdir)
+-	mkdir -p $(shaderdir)
+-	cp -rf $(srcdir)/shaders/* $(shaderdir)
++	mkdir -p $(DESTDIR)$(htmldocdir)
++	cp -rf $(srcdir)/doc/* $(DESTDIR)$(htmldocdir)
++	mkdir -p $(DESTDIR)$(shaderdir)
++	cp -rf $(srcdir)/shaders/* $(DESTDIR)$(shaderdir)
+ 
