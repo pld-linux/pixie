@@ -1,5 +1,5 @@
 Summary:	RenderMan-compatible renderer
-Summary(pl):	Renderer kompatybilny z RenderManem
+Summary(pl.UTF-8):   Renderer kompatybilny z RenderManem
 Name:		pixie
 Version:	1.4.5
 Release:	1
@@ -18,10 +18,10 @@ Pixie is a RenderMan like photorealistic renderer. It is being
 developed in the hope that it will be useful for graphics research and
 for people who can not afford a commercial renderer.
 
-%description -l pl
+%description -l pl.UTF-8
 Pixie to fotorealistyczny renderer podobny do RenderMana. Jest
-rozwijany z nadziej±, ¿e bêdzie przydatny do badañ nad grafik± i dla
-ludzi, którzy nie mog± sobie pozwoliæ na komercyjny renderer.
+rozwijany z nadziejÄ…, Å¼e bÄ™dzie przydatny do badaÅ„ nad grafikÄ… i dla
+ludzi, ktÃ³rzy nie mogÄ… sobie pozwoliÄ‡ na komercyjny renderer.
 
 %prep
 %setup -q -n Pixie
