@@ -1,5 +1,5 @@
 Summary:	RenderMan-compatible renderer
-Summary(pl.UTF-8):   Renderer kompatybilny z RenderManem
+Summary(pl.UTF-8):	Renderer kompatybilny z RenderManem
 Name:		pixie
 Version:	1.4.5
 Release:	1
