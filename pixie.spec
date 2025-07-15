@@ -25,7 +25,7 @@ ludzi, którzy nie mogą sobie pozwolić na komercyjny renderer.
 
 %prep
 %setup -q -n Pixie
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %{__aclocal}
